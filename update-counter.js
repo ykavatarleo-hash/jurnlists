@@ -13,8 +13,8 @@ const path = require("path");
 const GROUP_ID = process.env.ROBLOX_GROUP_ID || "11867970"; // Jurnlists
 const WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 const EMBED_COLOR_HEX = process.env.EMBED_COLOR_HEX || "#f3b359";
-const GROUP_NAME = process.env.GROUP_DISPLAY_NAME || "Jurnlists";
-const CELEBRATION_EMOJI = process.env.CELEBRATION_EMOJI || "<:celebration:1417757294107820132>";
+const GROUP_NAME = process.env.GROUP_DISPLAY_NAME || "jurnlists";
+const CELEBRATION_EMOJI = process.env.CELEBRATION_EMOJI || "🎉";
 
 const STATE_FILE = path.join(__dirname, "state.json");
 
