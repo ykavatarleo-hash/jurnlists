@@ -14,7 +14,7 @@ const GROUP_ID = process.env.ROBLOX_GROUP_ID || "11867970"; // Jurnlists
 const WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 const EMBED_COLOR_HEX = process.env.EMBED_COLOR_HEX || "#f3b359";
 const GROUP_NAME = process.env.GROUP_DISPLAY_NAME || "jurnlists";
-const CELEBRATION_EMOJI = process.env.CELEBRATION_EMOJI || "🎉";
+const CELEBRATION_EMOJI = process.env.CELEBRATION_EMOJI || "<:celebration:1520560483118092441>";
 
 const STATE_FILE = path.join(__dirname, "state.json");
 
